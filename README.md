@@ -1,5 +1,7 @@
 # PiaOhNo
-Piano app for Programming class 1 at the Granite Technical Institute. (Im just a student, leave me alone T-T)
+Piano app for Programming class 1 at the Granite Technical Institute. 
+
+![image](https://github.com/Who-Am-Idk/PiaOhNo/blob/main/images/playlist.png?raw=true)
 
 ## Objective:
 Learn C# while creating a small, simple piano app. The app is nothing more than a do-dad that uses file manipulation for saving playlists, and simple techniques for songs.
