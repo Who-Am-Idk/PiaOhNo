@@ -1,7 +1,7 @@
 # PiaOhNo
 Piano app for Programming class 1 at the Granite Technical Institute. 
 
-![https://github.com/Who-Am-Idk/PiaOhNo/blob/main/src/Program.cs](https://github.com/Who-Am-Idk/PiaOhNo/blob/main/images/playlist.png?raw=true)
+![src screenshot](https://github.com/Who-Am-Idk/PiaOhNo/blob/main/images/playlist.png?raw=true)
 
 ## Objective:
 Learn C# while creating a small, simple piano app. The app is nothing more than a do-dad that uses file manipulation for saving playlists, and simple techniques for songs.
