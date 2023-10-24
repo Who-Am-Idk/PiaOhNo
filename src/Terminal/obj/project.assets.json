@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudio\\PiaOhNoo\\PiaOhNoo.csproj",
+      "projectUniqueName": "D:\\GitRepos\\PiaOhNo\\src\\Terminal\\PiaOhNoo.csproj",
       "projectName": "PiaOhNoo",
-      "projectPath": "D:\\VisualStudio\\PiaOhNoo\\PiaOhNoo.csproj",
+      "projectPath": "D:\\GitRepos\\PiaOhNo\\src\\Terminal\\PiaOhNoo.csproj",
       "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualStudio\\PiaOhNoo\\obj\\",
+      "outputPath": "D:\\GitRepos\\PiaOhNo\\src\\Terminal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
