@@ -118,37 +118,274 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="whiteKeys.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 360</value>
+  <data name="whiteKeys.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1198, 231</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="whiteKeys.ColumnCount" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls /&gt;&lt;Columns Styles="Percent,50,Percent,50,Absolute,20,Absolute,20" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  <data name="bButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="bButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>966, 0</value>
+  </data>
+  <data name="bButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="bButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 237</value>
+  </data>
+  <data name="bButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="bButton.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="&gt;&gt;bButton.Name" xml:space="preserve">
+    <value>bButton</value>
+  </data>
+  <data name="&gt;&gt;bButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bButton.Parent" xml:space="preserve">
+    <value>whiteKeys</value>
+  </data>
+  <data name="&gt;&gt;bButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="aButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="aButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="aButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>805, 0</value>
+  </data>
+  <data name="aButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="aButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 237</value>
+  </data>
+  <data name="aButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="aButton.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="&gt;&gt;aButton.Name" xml:space="preserve">
+    <value>aButton</value>
+  </data>
+  <data name="&gt;&gt;aButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aButton.Parent" xml:space="preserve">
+    <value>whiteKeys</value>
+  </data>
+  <data name="&gt;&gt;aButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="gButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>644, 0</value>
+  </data>
+  <data name="gButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="gButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 237</value>
+  </data>
+  <data name="gButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gButton.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="&gt;&gt;gButton.Name" xml:space="preserve">
+    <value>gButton</value>
+  </data>
+  <data name="&gt;&gt;gButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gButton.Parent" xml:space="preserve">
+    <value>whiteKeys</value>
+  </data>
+  <data name="&gt;&gt;gButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 0</value>
+  </data>
+  <data name="fButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="fButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 237</value>
+  </data>
+  <data name="fButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="fButton.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="&gt;&gt;fButton.Name" xml:space="preserve">
+    <value>fButton</value>
+  </data>
+  <data name="&gt;&gt;fButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fButton.Parent" xml:space="preserve">
+    <value>whiteKeys</value>
+  </data>
+  <data name="&gt;&gt;fButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="eButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="eButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="eButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>322, 0</value>
+  </data>
+  <data name="eButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="eButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 237</value>
+  </data>
+  <data name="eButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="eButton.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="&gt;&gt;eButton.Name" xml:space="preserve">
+    <value>eButton</value>
+  </data>
+  <data name="&gt;&gt;eButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eButton.Parent" xml:space="preserve">
+    <value>whiteKeys</value>
+  </data>
+  <data name="&gt;&gt;eButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 0</value>
+  </data>
+  <data name="dButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="dButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 237</value>
+  </data>
+  <data name="dButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dButton.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;dButton.Name" xml:space="preserve">
+    <value>dButton</value>
+  </data>
+  <data name="&gt;&gt;dButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dButton.Parent" xml:space="preserve">
+    <value>whiteKeys</value>
+  </data>
+  <data name="&gt;&gt;dButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="cButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 237</value>
+  </data>
+  <data name="cButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cButton.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="&gt;&gt;cButton.Name" xml:space="preserve">
+    <value>cButton</value>
+  </data>
+  <data name="&gt;&gt;cButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cButton.Parent" xml:space="preserve">
+    <value>whiteKeys</value>
+  </data>
+  <data name="&gt;&gt;cButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="whiteKeys.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 363</value>
+  </data>
+  <data name="whiteKeys.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="whiteKeys.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="whiteKeys.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1128, 237</value>
+  </data>
+  <data name="whiteKeys.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;whiteKeys.Name" xml:space="preserve">
+    <value>whiteKeys</value>
+  </data>
+  <data name="&gt;&gt;whiteKeys.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;whiteKeys.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;whiteKeys.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="whiteKeys.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="bButton" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="aButton" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="gButton" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="fButton" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="eButton" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="dButton" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -157,7 +394,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1198, 588</value>
+    <value>1184, 561</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Form1</value>
