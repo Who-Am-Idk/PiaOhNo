@@ -34,8 +34,8 @@ namespace PiaOhForm
             //Also want the top of the keyboard to be about down about 60.5% of the way. 
             double[] pianoAnchor = {0.03*displayW, .605*displayH}; // Can't cast to integer inside of the array. It breaks.
             whiteKeys.Location = new Point((int)pianoAnchor[0], (int)pianoAnchor[1]);
-            whiteKeys.Size = new Size(displayW - (int)pianoAnchor[0]*2, displayH); 
-            whiteKeys.BackColor = Color.Pink;
+            whiteKeys.Size = new Size(displayW - (int)pianoAnchor[0]*2, displayH-50); 
+            whiteKeys.BackColor = Color.White;
         }
         //Figure out arrays and button click.. thing... im tired, going to bed.
     }
