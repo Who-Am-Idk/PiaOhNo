@@ -1,5 +1,6 @@
 # PiaOhNo
 Piano app for Programming class 1 at the Granite Technical Institute. 
+
 Click for a demonstration on the current look of the project (v0.0.2)
 [![Resizing Demonstration](https://img.youtube.com/vi/sf8sDtfFFBI/maxresdefault.jpg)](https://www.youtube.com/watch?v=sf8sDtfFFBI)
 
