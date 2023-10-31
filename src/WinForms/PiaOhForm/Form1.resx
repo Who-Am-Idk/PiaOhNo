@@ -127,7 +127,13 @@
   <data name="whiteKeys.ColumnCount" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="bButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="bButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -136,10 +142,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>966, 0</value>
-  </data>
-  <data name="bButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>1005, 3</value>
   </data>
   <data name="bButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>162, 237</value>
@@ -162,6 +165,12 @@
   <data name="&gt;&gt;bButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="aButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="aButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="aButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -169,10 +178,7 @@
     <value>NoControl</value>
   </data>
   <data name="aButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>805, 0</value>
-  </data>
-  <data name="aButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>838, 3</value>
   </data>
   <data name="aButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 237</value>
@@ -195,6 +201,12 @@
   <data name="&gt;&gt;aButton.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="gButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="gButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -202,10 +214,7 @@
     <value>NoControl</value>
   </data>
   <data name="gButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>644, 0</value>
-  </data>
-  <data name="gButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>671, 3</value>
   </data>
   <data name="gButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 237</value>
@@ -228,6 +237,12 @@
   <data name="&gt;&gt;gButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="fButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="fButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -235,10 +250,7 @@
     <value>NoControl</value>
   </data>
   <data name="fButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>483, 0</value>
-  </data>
-  <data name="fButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>504, 3</value>
   </data>
   <data name="fButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 237</value>
@@ -261,6 +273,12 @@
   <data name="&gt;&gt;fButton.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="eButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="eButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="eButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -268,10 +286,7 @@
     <value>NoControl</value>
   </data>
   <data name="eButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 0</value>
-  </data>
-  <data name="eButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>337, 3</value>
   </data>
   <data name="eButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 237</value>
@@ -294,6 +309,12 @@
   <data name="&gt;&gt;eButton.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="dButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="dButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -301,10 +322,7 @@
     <value>NoControl</value>
   </data>
   <data name="dButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 0</value>
-  </data>
-  <data name="dButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+    <value>170, 3</value>
   </data>
   <data name="dButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 237</value>
@@ -327,14 +345,20 @@
   <data name="&gt;&gt;dButton.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="cButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cButton.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
   <data name="cButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="cButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="cButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="cButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
+  <data name="cButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
   </data>
   <data name="cButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>161, 237</value>
@@ -358,7 +382,7 @@
     <value>6</value>
   </data>
   <data name="whiteKeys.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 324</value>
+    <value>5, 309</value>
   </data>
   <data name="whiteKeys.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -367,7 +391,7 @@
     <value>1</value>
   </data>
   <data name="whiteKeys.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1128, 237</value>
+    <value>1170, 243</value>
   </data>
   <data name="whiteKeys.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -382,10 +406,221 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;whiteKeys.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="whiteKeys.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="bButton" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="aButton" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="gButton" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="fButton" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="eButton" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="dButton" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="bButton" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="aButton" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="gButton" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="fButton" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="eButton" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="dButton" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="cButton" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,14.28571,Percent,14.28572,Percent,14.28572,Percent,14.28572,Percent,14.28572,Percent,14.28572,Percent,14.28572" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="songTextBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="songTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="songTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="songTextBox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="songTable.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="playPauseBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="playPauseBtn.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="playPauseBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="playPauseBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="playPauseBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="playPauseBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>923, 3</value>
+  </data>
+  <data name="playPauseBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 52</value>
+  </data>
+  <data name="playPauseBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="playPauseBtn.Text" xml:space="preserve">
+    <value>
+</value>
+  </data>
+  <data name="&gt;&gt;playPauseBtn.Name" xml:space="preserve">
+    <value>playPauseBtn</value>
+  </data>
+  <data name="&gt;&gt;playPauseBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;playPauseBtn.Parent" xml:space="preserve">
+    <value>songTable</value>
+  </data>
+  <data name="&gt;&gt;playPauseBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="settingsBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="settingsBtn.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="settingsBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="settingsBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="settingsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="settingsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>923, 177</value>
+  </data>
+  <data name="settingsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 52</value>
+  </data>
+  <data name="settingsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;settingsBtn.Name" xml:space="preserve">
+    <value>settingsBtn</value>
+  </data>
+  <data name="&gt;&gt;settingsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsBtn.Parent" xml:space="preserve">
+    <value>songTable</value>
+  </data>
+  <data name="&gt;&gt;settingsBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="stopSongBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="stopSongBtn.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="stopSongBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="stopSongBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="stopSongBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stopSongBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>923, 61</value>
+  </data>
+  <data name="stopSongBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 52</value>
+  </data>
+  <data name="stopSongBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;stopSongBtn.Name" xml:space="preserve">
+    <value>stopSongBtn</value>
+  </data>
+  <data name="&gt;&gt;stopSongBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stopSongBtn.Parent" xml:space="preserve">
+    <value>songTable</value>
+  </data>
+  <data name="&gt;&gt;stopSongBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="loadSongBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="loadSongBtn.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="loadSongBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="loadSongBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="loadSongBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="loadSongBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>923, 119</value>
+  </data>
+  <data name="loadSongBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 52</value>
+  </data>
+  <data name="loadSongBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;loadSongBtn.Name" xml:space="preserve">
+    <value>loadSongBtn</value>
+  </data>
+  <data name="&gt;&gt;loadSongBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadSongBtn.Parent" xml:space="preserve">
+    <value>songTable</value>
+  </data>
+  <data name="&gt;&gt;loadSongBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="songTable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 53</value>
+  </data>
+  <data name="songTable.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="songTable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1066, 232</value>
+  </data>
+  <data name="songTable.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;songTable.Name" xml:space="preserve">
+    <value>songTable</value>
+  </data>
+  <data name="&gt;&gt;songTable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;songTable.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;songTable.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="songTable.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="playPauseBtn" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="settingsBtn" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="stopSongBtn" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="loadSongBtn" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="songTextBox" Row="0" RowSpan="4" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,86.30394,Percent,13.69606" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="songTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>914, 226</value>
+  </data>
+  <data name="songTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="songTextBox.Text" xml:space="preserve">
+    <value>(Write your song here!)</value>
+  </data>
+  <data name="&gt;&gt;songTextBox.Name" xml:space="preserve">
+    <value>songTextBox</value>
+  </data>
+  <data name="&gt;&gt;songTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;songTextBox.Parent" xml:space="preserve">
+    <value>songTable</value>
+  </data>
+  <data name="&gt;&gt;songTextBox.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -397,7 +632,7 @@
     <value>1184, 561</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
+    <value>Pia-Oh-No!</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PiaOhNo</value>

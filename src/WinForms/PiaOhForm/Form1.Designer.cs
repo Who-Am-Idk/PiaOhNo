@@ -37,13 +37,20 @@
             this.eButton = new System.Windows.Forms.Button();
             this.dButton = new System.Windows.Forms.Button();
             this.cButton = new System.Windows.Forms.Button();
+            this.songTextBox = new System.Windows.Forms.TextBox();
+            this.songTable = new System.Windows.Forms.TableLayoutPanel();
+            this.playPauseBtn = new System.Windows.Forms.Button();
+            this.stopSongBtn = new System.Windows.Forms.Button();
+            this.loadSongBtn = new System.Windows.Forms.Button();
+            this.settingsBtn = new System.Windows.Forms.Button();
             this.whiteKeys.SuspendLayout();
+            this.songTable.SuspendLayout();
             this.SuspendLayout();
             // 
             // whiteKeys
             // 
             resources.ApplyResources(this.whiteKeys, "whiteKeys");
-            this.whiteKeys.BackColor = System.Drawing.Color.DimGray;
+            this.whiteKeys.BackColor = System.Drawing.Color.Transparent;
             this.whiteKeys.Controls.Add(this.bButton, 6, 0);
             this.whiteKeys.Controls.Add(this.aButton, 5, 0);
             this.whiteKeys.Controls.Add(this.gButton, 4, 0);
@@ -56,60 +63,113 @@
             // 
             // bButton
             // 
-            this.bButton.BackColor = System.Drawing.Color.LavenderBlush;
             resources.ApplyResources(this.bButton, "bButton");
+            this.bButton.BackColor = System.Drawing.Color.White;
             this.bButton.Name = "bButton";
             this.bButton.UseVisualStyleBackColor = false;
             // 
             // aButton
             // 
-            this.aButton.BackColor = System.Drawing.Color.LavenderBlush;
             resources.ApplyResources(this.aButton, "aButton");
+            this.aButton.BackColor = System.Drawing.Color.White;
             this.aButton.Name = "aButton";
             this.aButton.UseVisualStyleBackColor = false;
             // 
             // gButton
             // 
-            this.gButton.BackColor = System.Drawing.Color.LavenderBlush;
             resources.ApplyResources(this.gButton, "gButton");
+            this.gButton.BackColor = System.Drawing.Color.White;
             this.gButton.Name = "gButton";
             this.gButton.UseVisualStyleBackColor = false;
             // 
             // fButton
             // 
-            this.fButton.BackColor = System.Drawing.Color.LavenderBlush;
             resources.ApplyResources(this.fButton, "fButton");
+            this.fButton.BackColor = System.Drawing.Color.White;
             this.fButton.Name = "fButton";
             this.fButton.UseVisualStyleBackColor = false;
             // 
             // eButton
             // 
-            this.eButton.BackColor = System.Drawing.Color.LavenderBlush;
             resources.ApplyResources(this.eButton, "eButton");
+            this.eButton.BackColor = System.Drawing.Color.White;
             this.eButton.Name = "eButton";
             this.eButton.UseVisualStyleBackColor = false;
             // 
             // dButton
             // 
-            this.dButton.BackColor = System.Drawing.Color.LavenderBlush;
             resources.ApplyResources(this.dButton, "dButton");
+            this.dButton.BackColor = System.Drawing.Color.White;
             this.dButton.Name = "dButton";
             this.dButton.UseVisualStyleBackColor = false;
             // 
             // cButton
             // 
-            this.cButton.BackColor = System.Drawing.Color.LavenderBlush;
             resources.ApplyResources(this.cButton, "cButton");
+            this.cButton.BackColor = System.Drawing.Color.White;
             this.cButton.Name = "cButton";
             this.cButton.UseVisualStyleBackColor = false;
+            // 
+            // songTextBox
+            // 
+            this.songTextBox.AcceptsReturn = true;
+            resources.ApplyResources(this.songTextBox, "songTextBox");
+            this.songTextBox.Name = "songTextBox";
+            this.songTable.SetRowSpan(this.songTextBox, 4);
+            // 
+            // songTable
+            // 
+            resources.ApplyResources(this.songTable, "songTable");
+            this.songTable.Controls.Add(this.playPauseBtn, 1, 0);
+            this.songTable.Controls.Add(this.settingsBtn, 1, 3);
+            this.songTable.Controls.Add(this.stopSongBtn, 1, 1);
+            this.songTable.Controls.Add(this.loadSongBtn, 1, 2);
+            this.songTable.Controls.Add(this.songTextBox, 0, 0);
+            this.songTable.Name = "songTable";
+            this.songTable.Paint += new System.Windows.Forms.PaintEventHandler(this.songTable_Paint);
+            // 
+            // playPauseBtn
+            // 
+            resources.ApplyResources(this.playPauseBtn, "playPauseBtn");
+            this.playPauseBtn.BackgroundImage = global::PiaOhForm.Properties.Resources.playPauseIcon;
+            this.playPauseBtn.Name = "playPauseBtn";
+            this.playPauseBtn.UseVisualStyleBackColor = true;
+            // 
+            // stopSongBtn
+            // 
+            resources.ApplyResources(this.stopSongBtn, "stopSongBtn");
+            this.stopSongBtn.BackgroundImage = global::PiaOhForm.Properties.Resources.stopSongIcon;
+            this.stopSongBtn.Name = "stopSongBtn";
+            this.stopSongBtn.UseVisualStyleBackColor = true;
+            // 
+            // loadSongBtn
+            // 
+            resources.ApplyResources(this.loadSongBtn, "loadSongBtn");
+            this.loadSongBtn.BackgroundImage = global::PiaOhForm.Properties.Resources.loadIcon;
+            this.loadSongBtn.Name = "loadSongBtn";
+            this.loadSongBtn.UseVisualStyleBackColor = true;
+            this.loadSongBtn.Click += new System.EventHandler(this.loadSongBtn_Click);
+            // 
+            // settingsBtn
+            // 
+            resources.ApplyResources(this.settingsBtn, "settingsBtn");
+            this.settingsBtn.BackgroundImage = global::PiaOhForm.Properties.Resources.cogwheelIcon;
+            this.settingsBtn.Name = "settingsBtn";
+            this.settingsBtn.UseVisualStyleBackColor = true;
             // 
             // PiaOhNo
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.songTable);
             this.Controls.Add(this.whiteKeys);
             this.Name = "PiaOhNo";
+            this.Resize += new System.EventHandler(this.PiaOhNo_Resize);
             this.whiteKeys.ResumeLayout(false);
+            this.whiteKeys.PerformLayout();
+            this.songTable.ResumeLayout(false);
+            this.songTable.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -125,6 +185,12 @@
         private System.Windows.Forms.Button fButton;
         private System.Windows.Forms.Button eButton;
         private System.Windows.Forms.Button dButton;
+        private System.Windows.Forms.TextBox songTextBox;
+        private System.Windows.Forms.Button settingsBtn;
+        private System.Windows.Forms.TableLayoutPanel songTable;
+        private System.Windows.Forms.Button playPauseBtn;
+        private System.Windows.Forms.Button stopSongBtn;
+        private System.Windows.Forms.Button loadSongBtn;
     }
 }
 
