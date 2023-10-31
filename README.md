@@ -1,7 +1,9 @@
 # PiaOhNo
 Piano app for Programming class 1 at the Granite Technical Institute. 
 
-[![Resizing Demonstration](img.youtube.com/vi/sf8sDtfFFBI/maxresdefault.jpg)](https://www.youtube.com/watch?v=sf8sDtfFFBI)
+[![Resizing Demonstration]
+(img.youtube.com/vi/sf8sDtfFFBI/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=sf8sDtfFFBI)
 
 ![src screenshot](https://github.com/Who-Am-Idk/PiaOhNo/blob/main/images/playlist.png?raw=true)
 
