@@ -538,40 +538,40 @@
   <data name="&gt;&gt;stopSongBtn.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="loadSongBtn.AutoSize" type="System.Boolean, mscorlib">
+  <data name="fileBtn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="loadSongBtn.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+  <data name="fileBtn.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
-  <data name="loadSongBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="fileBtn.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="loadSongBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="fileBtn.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="loadSongBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="fileBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="loadSongBtn.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="fileBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>923, 119</value>
   </data>
-  <data name="loadSongBtn.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="fileBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 52</value>
   </data>
-  <data name="loadSongBtn.TabIndex" type="System.Int32, mscorlib">
+  <data name="fileBtn.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;loadSongBtn.Name" xml:space="preserve">
-    <value>loadSongBtn</value>
+  <data name="&gt;&gt;fileBtn.Name" xml:space="preserve">
+    <value>fileBtn</value>
   </data>
-  <data name="&gt;&gt;loadSongBtn.Type" xml:space="preserve">
+  <data name="&gt;&gt;fileBtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;loadSongBtn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;fileBtn.Parent" xml:space="preserve">
     <value>songTable</value>
   </data>
-  <data name="&gt;&gt;loadSongBtn.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;fileBtn.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="songTable.Location" type="System.Drawing.Point, System.Drawing">
@@ -599,7 +599,7 @@
     <value>0</value>
   </data>
   <data name="songTable.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="playPauseBtn" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="settingsBtn" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="stopSongBtn" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="loadSongBtn" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="songTextBox" Row="0" RowSpan="4" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,86.30394,Percent,13.69606" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="playPauseBtn" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="settingsBtn" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="stopSongBtn" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="fileBtn" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="songTextBox" Row="0" RowSpan="4" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,86.30394,Percent,13.69606" /&gt;&lt;Rows Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="songTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>914, 226</value>

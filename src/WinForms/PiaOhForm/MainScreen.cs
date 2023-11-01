@@ -54,9 +54,9 @@ namespace PiaOhForm
             songTable_Paint(null, null);
         }
 
-        private void loadSongBtn_Click(object sender, EventArgs e)
+        private void FileBtn_Click(object sender, EventArgs e)
         {
-
+            OpenFileDialog openFileDialog = new OpenFileDialog();
         }
 
         //Figure out arrays and button click.. thing... im tired, going to bed.

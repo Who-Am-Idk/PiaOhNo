@@ -40,9 +40,9 @@
             this.songTextBox = new System.Windows.Forms.TextBox();
             this.songTable = new System.Windows.Forms.TableLayoutPanel();
             this.playPauseBtn = new System.Windows.Forms.Button();
-            this.stopSongBtn = new System.Windows.Forms.Button();
-            this.loadSongBtn = new System.Windows.Forms.Button();
             this.settingsBtn = new System.Windows.Forms.Button();
+            this.stopSongBtn = new System.Windows.Forms.Button();
+            this.fileBtn = new System.Windows.Forms.Button();
             this.whiteKeys.SuspendLayout();
             this.songTable.SuspendLayout();
             this.SuspendLayout();
@@ -123,7 +123,7 @@
             this.songTable.Controls.Add(this.playPauseBtn, 1, 0);
             this.songTable.Controls.Add(this.settingsBtn, 1, 3);
             this.songTable.Controls.Add(this.stopSongBtn, 1, 1);
-            this.songTable.Controls.Add(this.loadSongBtn, 1, 2);
+            this.songTable.Controls.Add(this.fileBtn, 1, 2);
             this.songTable.Controls.Add(this.songTextBox, 0, 0);
             this.songTable.Name = "songTable";
             this.songTable.Paint += new System.Windows.Forms.PaintEventHandler(this.songTable_Paint);
@@ -135,6 +135,13 @@
             this.playPauseBtn.Name = "playPauseBtn";
             this.playPauseBtn.UseVisualStyleBackColor = true;
             // 
+            // settingsBtn
+            // 
+            resources.ApplyResources(this.settingsBtn, "settingsBtn");
+            this.settingsBtn.BackgroundImage = global::PiaOhForm.Properties.Resources.cogwheelIcon;
+            this.settingsBtn.Name = "settingsBtn";
+            this.settingsBtn.UseVisualStyleBackColor = true;
+            // 
             // stopSongBtn
             // 
             resources.ApplyResources(this.stopSongBtn, "stopSongBtn");
@@ -142,20 +149,13 @@
             this.stopSongBtn.Name = "stopSongBtn";
             this.stopSongBtn.UseVisualStyleBackColor = true;
             // 
-            // loadSongBtn
+            // fileBtn
             // 
-            resources.ApplyResources(this.loadSongBtn, "loadSongBtn");
-            this.loadSongBtn.BackgroundImage = global::PiaOhForm.Properties.Resources.loadIcon;
-            this.loadSongBtn.Name = "loadSongBtn";
-            this.loadSongBtn.UseVisualStyleBackColor = true;
-            this.loadSongBtn.Click += new System.EventHandler(this.loadSongBtn_Click);
-            // 
-            // settingsBtn
-            // 
-            resources.ApplyResources(this.settingsBtn, "settingsBtn");
-            this.settingsBtn.BackgroundImage = global::PiaOhForm.Properties.Resources.cogwheelIcon;
-            this.settingsBtn.Name = "settingsBtn";
-            this.settingsBtn.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.fileBtn, "fileBtn");
+            this.fileBtn.BackgroundImage = global::PiaOhForm.Properties.Resources.saveIcon;
+            this.fileBtn.Name = "fileBtn";
+            this.fileBtn.UseVisualStyleBackColor = true;
+            this.fileBtn.Click += new System.EventHandler(this.FileBtn_Click);
             // 
             // PiaOhNo
             // 
@@ -190,7 +190,7 @@
         private System.Windows.Forms.TableLayoutPanel songTable;
         private System.Windows.Forms.Button playPauseBtn;
         private System.Windows.Forms.Button stopSongBtn;
-        private System.Windows.Forms.Button loadSongBtn;
+        private System.Windows.Forms.Button fileBtn;
     }
 }
 
