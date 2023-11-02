@@ -5,9 +5,11 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Media;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Schema;
 
 namespace PiaOhForm
 {
@@ -17,7 +19,8 @@ namespace PiaOhForm
      * 10/24/2023
      * GTI Programming 1-2 Class project
      * Winforms Edition
-     * v0.0.2
+     * Release 0 Stage 1 Step 1
+     * v0.1.1
      */
     public partial class PiaOhNo : Form
     {
@@ -60,13 +63,22 @@ namespace PiaOhForm
             songTable.Location = new Point((int)tableAnchor[0], (int)tableAnchor[1]);
             songTable.Size = new Size(displayW - (int)(tableAnchor[0] * 2), (int)tableAnchor[1]*2);
         }
+        private void PlayNote(string note) { 
 
+        }
         private void PlayKey(object sender, EventArgs e) {
             Button play = sender as Button;
-            char temp = play.Name.ToCharArray()[0];
+            //Take the first letter of the name of the button
+            
+            //Clear the textbox if it has the default text.
             if (songTextBox.Text == "(Write your song here!)") songTextBox.Clear(); //Ik this is stupid, deal. 
-            songTextBox.Text += temp;
-            //Still writing, lol
+            //I'll need to get input for which octave, for v.0.1.1, im just locking at octave 5.
+            char temp = play.Name[0];
+            char octave = '5'; //GetOctave();
+            //Need to get input for length aswell, will just lock at quarter.
+            char dur = 'q'; //GetDuration
+            songTextBox.Text += $"{temp}{octave}{dur} "; //space afterwards in order to seperate notes.
+            PlayNote($"{temp}{octave}{dur} ");
         }
         private Button[] ListAllWhiteKeys() {
             List<Button> b = new List<Button>();
