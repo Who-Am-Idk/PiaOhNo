@@ -607,9 +607,6 @@
   <data name="songTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="songTextBox.Text" xml:space="preserve">
-    <value>(Write your song here!)</value>
-  </data>
   <data name="&gt;&gt;songTextBox.Name" xml:space="preserve">
     <value>songTextBox</value>
   </data>

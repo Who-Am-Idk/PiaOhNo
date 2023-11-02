@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,13 +21,26 @@ namespace PiaOhForm
      */
     public partial class PiaOhNo : Form
     {
-        
+        //Dictionary<string, string> keyValues = new Dictionary<string, string>();
+        //SoundPlayer sp;
+        static double[] notes =
+       {
+        27.50,//a0
+        30.87,//b0
+        16.35,//c0
+        18.35,//d0
+        20.60,//e0
+        21.83,//f0
+        24.50 //g0
+       };
         public PiaOhNo()
         {
             InitializeComponent();
+            Button[] wKeys = ListAllWhiteKeys();
+            //songTextBox.PlaceholderText = "";
         }
 
-        private void whiteKeysTable(object sender, PaintEventArgs e)
+        private void WhiteKeysTable(object sender, PaintEventArgs e)
         {
             //Figuring this out took way too long.
             int displayH = ClientRectangle.Height;
@@ -37,7 +51,7 @@ namespace PiaOhForm
             whiteKeys.Location = new Point((int)pianoAnchor[0], (int)pianoAnchor[1]);
             whiteKeys.Size = new Size(displayW - (int)(pianoAnchor[0]*2), displayH - (int)pianoAnchor[1]); 
         }
-        private void songTable_Paint(object sender, PaintEventArgs e)
+        private void SongTable_Paint(object sender, PaintEventArgs e)
         {
             int displayH = ClientRectangle.Height;
             int displayW = ClientRectangle.Width;
@@ -47,18 +61,34 @@ namespace PiaOhForm
             songTable.Size = new Size(displayW - (int)(tableAnchor[0] * 2), (int)tableAnchor[1]*2);
         }
 
-
-        private void PiaOhNo_Resize(object sender, EventArgs e)
-        {
-            whiteKeysTable(null, null);
-            songTable_Paint(null, null);
+        private void PlayKey(object sender, EventArgs e) {
+            Button play = sender as Button;
+            char temp = play.Name.ToCharArray()[0];
+            if (songTextBox.Text == "(Write your song here!)") songTextBox.Clear(); //Ik this is stupid, deal. 
+            songTextBox.Text += temp;
+            //Still writing, lol
+        }
+        private Button[] ListAllWhiteKeys() {
+            List<Button> b = new List<Button>();
+            foreach (Control control in whiteKeys.Controls)
+            {
+                if (control is Button button)
+                {
+                    b.Add(button);
+                    button.Click += PlayKey;
+                }
+            }
+            return b.ToArray();
         }
 
         private void FileBtn_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
         }
-
-        //Figure out arrays and button click.. thing... im tired, going to bed.
+        private void PiaOhNo_Resize(object sender, EventArgs e)
+        {
+            WhiteKeysTable(null, null);
+            SongTable_Paint(null, null);
+        }
     }
 }

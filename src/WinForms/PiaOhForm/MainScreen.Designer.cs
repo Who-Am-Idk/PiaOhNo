@@ -59,7 +59,7 @@
             this.whiteKeys.Controls.Add(this.dButton, 1, 0);
             this.whiteKeys.Controls.Add(this.cButton, 0, 0);
             this.whiteKeys.Name = "whiteKeys";
-            this.whiteKeys.Paint += new System.Windows.Forms.PaintEventHandler(this.whiteKeysTable);
+            this.whiteKeys.Paint += new System.Windows.Forms.PaintEventHandler(this.WhiteKeysTable);
             // 
             // bButton
             // 
@@ -126,7 +126,7 @@
             this.songTable.Controls.Add(this.fileBtn, 1, 2);
             this.songTable.Controls.Add(this.songTextBox, 0, 0);
             this.songTable.Name = "songTable";
-            this.songTable.Paint += new System.Windows.Forms.PaintEventHandler(this.songTable_Paint);
+            this.songTable.Paint += new System.Windows.Forms.PaintEventHandler(this.SongTable_Paint);
             // 
             // playPauseBtn
             // 
