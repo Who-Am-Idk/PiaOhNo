@@ -20,7 +20,7 @@ namespace PiaOhForm
      * 10/24/2023
      * GTI Programming 1-2 Class project
      * Winforms Edition
-     * Release 0 Stage 1 Step 1
+     * Release 0 Stage 1 Step 2
      * v0.1.2
      */
     //Next Step: Finish user keyboard functionality (Add button for rests & allow user to change octave and whatnot)
@@ -122,10 +122,12 @@ namespace PiaOhForm
             if (songTextBox.Text == "(Write your song here!)") songTextBox.Clear(); //Ik this is stupid, deal. 
             //I'll need to get input for which octave, for v.0.1.1, im just locking at octave 5.
             char octave = '5';
-            double freq = GetFrequency(play.Name[0], octave);
+            //If the user is holding down the shift key, capitalize the note name to make it sharp
+            char freqChar = Control.ModifierKeys != Keys.Shift ? play.Name[0] : char.ToUpper(play.Name[0]);
+            double freq = GetFrequency(freqChar, octave);
             //Need to get input for length aswell, will just lock at quarter.
             int dur = GetDuration('q'); //GetDuration();
-            songTextBox.Text += $"{play.Name[0]}{octave}{'q'} "; //space afterwards in order to seperate notes.
+            songTextBox.Text += $"{freqChar}{octave}{'q'} "; //space afterwards in order to seperate notes.
             if (playWhenPress) PlayNote(freq, octave, dur);
         }
         private Button[] ListAllWhiteKeys()
