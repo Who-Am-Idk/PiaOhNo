@@ -38,12 +38,29 @@ namespace PiaOhForm
         21.83,//f0
         24.50 //g0
        };
+        static int octave = 5;
+        static int duration;
         
         public PiaOhNo()
         {
             InitializeComponent();
             Button[] wKeys = ListAllWhiteKeys();
-            //songTextBox.PlaceholderText = "";
+            KeyDown += PiaOhNo_KeyDown;
+        }
+
+        private void PiaOhNo_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.Up: octave += 1;
+                    break;
+                case Keys.Down: octave -= 1;
+                    break;
+                case Keys.Right: duration += 1;
+                    break;
+                case Keys.Left: duration -= 1;
+                    break;
+            }
         }
 
         private void WhiteKeysTable(object sender, PaintEventArgs e)
@@ -68,12 +85,14 @@ namespace PiaOhForm
         }
         private void PlayNote(double freq, char oct, int dur)
         {
+            //Check for a valid frequency
             if (freq > 37 && freq < 32767)
             {
                 Console.Beep((int)freq, dur);
             }
             else
             {
+                //rest.
                 delayTimer = new System.Timers.Timer(dur);
                 delayTimer.Elapsed += (sender, s) => { delayTimer.Stop(); };
             }
