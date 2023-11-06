@@ -43,6 +43,8 @@
             this.settingsBtn = new System.Windows.Forms.Button();
             this.stopSongBtn = new System.Windows.Forms.Button();
             this.fileBtn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.whiteKeys.SuspendLayout();
             this.songTable.SuspendLayout();
             this.SuspendLayout();
@@ -157,11 +159,23 @@
             this.fileBtn.UseVisualStyleBackColor = true;
             this.fileBtn.Click += new System.EventHandler(this.FileBtn_Click);
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
             // PiaOhNo
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.songTable);
             this.Controls.Add(this.whiteKeys);
             this.Name = "PiaOhNo";
@@ -191,6 +205,8 @@
         private System.Windows.Forms.Button playPauseBtn;
         private System.Windows.Forms.Button stopSongBtn;
         private System.Windows.Forms.Button fileBtn;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

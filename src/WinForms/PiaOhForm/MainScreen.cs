@@ -20,8 +20,8 @@ namespace PiaOhForm
      * 10/24/2023
      * GTI Programming 1-2 Class project
      * Winforms Edition
-     * Release 0 Stage 1 Step 2
-     * v0.1.2
+     * Release 0 Stage 1 Step 3
+     * v0.1.3
      */
     //Next Step: Finish user keyboard functionality (Add button for rests & allow user to change octave and whatnot)
     public partial class PiaOhNo : Form
@@ -39,28 +39,15 @@ namespace PiaOhForm
         24.50 //g0
        };
         static int octave = 5;
-        static int duration;
+        static int tempo = 1000;
+        static int dur = tempo/4;
         
+        
+
         public PiaOhNo()
         {
             InitializeComponent();
             Button[] wKeys = ListAllWhiteKeys();
-            KeyDown += PiaOhNo_KeyDown;
-        }
-
-        private void PiaOhNo_KeyDown(object sender, KeyEventArgs e)
-        {
-            switch (e.KeyCode)
-            {
-                case Keys.Up: octave += 1;
-                    break;
-                case Keys.Down: octave -= 1;
-                    break;
-                case Keys.Right: duration += 1;
-                    break;
-                case Keys.Left: duration -= 1;
-                    break;
-            }
         }
 
         private void WhiteKeysTable(object sender, PaintEventArgs e)
@@ -116,9 +103,6 @@ namespace PiaOhForm
         }
         private int GetDuration(char d)
         {
-            int dur;
-            //Temporarily setting tempo to a fixed 1000
-            int tempo = 1000;
             switch (d)
             {
                 case 's': dur = tempo / 16; break;// s = Sixteenth
